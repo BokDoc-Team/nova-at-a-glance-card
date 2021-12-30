@@ -308,10 +308,10 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("card", { staticClass: "flex flex-col" }, [
+  return _c("card", { staticClass: "flex flex-col h-auto" }, [
     _c("div", { staticClass: "px-3 py-3" }, [
       _c("h1", { staticClass: "text-2xl text-80 font-light" }, [
-        _vm._v("At A Glance")
+        _vm._v(_vm._s(_vm.__("Summary")))
       ])
     ]),
     _vm._v(" "),
@@ -342,7 +342,8 @@ var render = function() {
           ],
           1
         )
-      })
+      }),
+      0
     )
   ])
 }
