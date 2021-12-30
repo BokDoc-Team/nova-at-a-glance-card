@@ -308,7 +308,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("card", { staticClass: "flex flex-col h-auto" }, [
+  return _c("card", { staticClass: "flex flex-col h-auto card-at-a-glance" }, [
     _c("div", { staticClass: "px-3 py-3" }, [
       _c("h1", { staticClass: "text-2xl text-80 font-light" }, [
         _vm._v(_vm._s(_vm.__("Summary")))

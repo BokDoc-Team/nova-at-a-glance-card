@@ -1,5 +1,5 @@
 <template>
-    <card class="flex flex-col h-auto">
+    <card class="flex flex-col h-auto card-at-a-glance">
         <div class="px-3 py-3">
             <h1 class="text-2xl text-80 font-light">{{ __('Summary') }}</h1>
         </div>
